@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+notebook = "*"
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
+matplotlib = "*"
+openpyxl = "*"
+networkx = "*"
+pulp = "*"
+ortoolpy = "*"
+opencv-python = "*"
+opencv-python-headless = "*"
+dlib = "*"
+mecab-python3 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
